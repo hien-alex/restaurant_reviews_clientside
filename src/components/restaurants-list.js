@@ -132,7 +132,7 @@ const RestaurantsList = (props) => {
             type="text"
             className="form-control"
             disabled={props.disabled}
-            placeholder={props.disabled ? "Loading..." : "Search by Zipcode"}
+            placeholder={props.disabled ? "Loading..." : "Search by Full Zipcode"}
             value={searchZip}
             onChange={onChangeSearchZip}
           />
